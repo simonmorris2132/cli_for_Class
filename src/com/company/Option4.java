@@ -1,4 +1,4 @@
 package com.company;
 
-public class Menu {
+public class Option4 {
 }

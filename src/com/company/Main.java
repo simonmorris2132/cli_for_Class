@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Enter your name: ");
 
         String userName = userIn.nextLine();
-        System.out.println("Hello " + userName + " Welcome to the CLI.");
+        System.out.println("Hello " + userName + ", Welcome to the CLI.");
 
         System.out.println("Please choose an option to continue:\n1. Say Hello\n2. Reverse a String\n3. Add two numbers\n4. Quit the program");
 
@@ -22,16 +22,16 @@ public class Main {
                 Option1.getName();
                 break;
             case 2:
-
+                Option2.reverseString();
                 break;
             case 3:
-
+                Option3.addTwoNum();
                 break;
             case 4:
-
+                Option4.quit();
                 break;
             default:
-                System.out.printf("WRONG SELECTION, LOSER");
+                System.out.printf("WRONG SELECTION, LOSER. TRY AGAIN.");
         }
 
     }

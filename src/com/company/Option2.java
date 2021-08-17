@@ -8,7 +8,6 @@ public class Option2 {
         String yourOption = Main.userIn.nextLine();
         String newOption = "";
 
-
         for (int i = yourOption.length() - 1; i >= 0; i--) {
             newOption += yourOption.charAt(i);
         }

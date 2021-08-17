@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Option2 {
 
     public static void reverseString() {
@@ -18,7 +16,3 @@ public class Option2 {
     }
 }
 
-//    public static void main(String[] args) {
-//        reverseString();
-//        }
-//}
